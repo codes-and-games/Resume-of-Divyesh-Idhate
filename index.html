@@ -47,6 +47,12 @@
                     </li>
 
                     <li class="nav__item">
+                        <a href="#tuts" class="nav__link">
+                            <i class="uil uil-scenery nav_icon"></i>Blogs
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
                         <a href="#services" class="nav__link">
                             <i class="uil uil-briefcase-alt nav_icon"></i>Services
                         </a>
@@ -70,7 +76,6 @@
 
             <div class="nav--btns">
                 <!-- Theme change button -->
-                Change Theme--> |
                 <i class="uil uil-moon change-theme" id="theme-button"></i>
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="uil uil-apps"></i>
@@ -82,10 +87,16 @@
     <!--==================== MAIN ====================-->
     <main class="main">
         <!--==================== HOME ====================-->
+
         <section class="home section" id="home">
             <div class="home__container container grid">
                 <div class="home__content grid">
                     <div class="home__social">
+
+                        <a href="blog site.html" target='_blank' class="home__social-icon">
+                            <i class="uil uil-link"></i>
+                        </a>
+
                         <a href="https://github.com/codes-and-games" target='_blank' class="home__social-icon">
                             <i class="uil uil-github-alt"></i>
                         </a>
@@ -128,7 +139,7 @@
                         <h1 class="home__title">Hi I'am Divyesh</h1>
                         <h2 class="home__subtitle">Python Developer</h2>
                         <p class="home__description">High level experience in Python Development and AI/ML knowledge,
-                            producing quality work.</p>
+                            producing quality work. </p>
                         <a href="#contact" class="button button--flex">
                             Contact Me<i class="uil uil-message button__icon"></i>
                         </a>
@@ -177,7 +188,8 @@
                     </div>
 
                     <div class="about__buttons">
-                        <a download="" href="assets/pdf/responsive-portfolio-website.zip" class="button button--flex">
+                        <a download="" href="assets/WebsiteDownload/Resume_Of_Divyesh_Idhate.rar"
+                            class="button button--flex">
                             Download Source Code of this Website <i class="uil uil-download-alt button__icon"></i></a>
                     </div>
                 </div>
@@ -278,16 +290,84 @@
                                                     <span class="skills__percentage skills__a"></span>
                                                 </div>
                                             </div>
-                                            
+
                                         </div>
                                     </div>
                                 </div>
 
                                 <div>
-                                    
+
                                 </div>
                             </div>
         </section>
+
+        <!-- =================TUTORIALS/BLOGS================= -->
+        <section class="portfolio section" id="tuts">
+            <h2 class="section__title">Tutorials/Blogs</h2>
+            <span class="section_subtitle">Most recent tutorials for begineers in Programming</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== SLIDER 1====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="data:image/png;base64,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"
+                            class="portfolio_img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Numpy Arrays in Python</h3>
+                            <p class="portfolio__decription">This blog/tut is made for a surface level understanding of
+                                Numpy Arrays. The blog has information as well as code related to the example for better
+                                understanding. Extract the zip and run the main.exe</p>
+                            <a href="blog site.html" class="button button--flex button--small portfolio___button">
+                                Go to Blog site
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== SLIDER 2====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="https://sm.pcmag.com/pcmag_in/how-to/g/got-a-pass/got-a-password-manager-good-but-youre-using-it-wrong_dk5c.jpg"
+                            class="portfolio_img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Password Managment Application using Python</h3>
+                            <p class="portfolio__decription">This is an GUI Application made in Python-Tkinter. It
+                                basically takes a input of username and password and stores it and returns the pass when
+                                you want. Extract the zip and run the main.exe</p>
+                            <a href="blog site.html" class="button button--flex button--small portfolio___button">
+                                Go to Blog site
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== SLIDER 3====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="https://computercare.net/wp-content/uploads/2019/08/Blog-Post-Header.png"
+                            class="portfolio_img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Zero to Hero Hardware Information (Written Notes)</h3>
+                            <p class="portfolio__decription">The following rar file given for download has information
+                                about hardware in computers which have been packed in word files. Download the zip and
+                                extract it and take a look at the word files given.</p>
+                            <a href="blog site.html" class="button button--flex button--small portfolio___button">
+                                Go to Blog site
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+
 
         <!--==================== SERVICES ====================-->
         <section class="services section" id="services">
@@ -298,18 +378,18 @@
             <div class="services__content">
                 <div>
                     <i class="uil uil-web-grid services__icon"></i>
-                    <h3 class="services__title">Python  &amp; Web Developer</h3>
+                    <h3 class="services__title">Python &amp; Web Developer</h3>
                 </div>
 
                 <span class="button button--flex button--small button--link services__button">
                     View More
                     <i class="uil uil-arrow-right button__icon"></i>
-                    
+
                 </span><br><br>
 
                 <div class="services__modal">
                     <div class="services__modal-content">
-                        <h4 class="services__modal-title">Python   &amp; Web Developer</h4>
+                        <h4 class="services__modal-title">Python &amp; Web Developer</h4>
                         <i class="uil uil-times services__modal-close"></i>
 
                         <ul class="services__modal-services grid ">
@@ -346,57 +426,81 @@
 
             <div class="portfolio__container container swiper-container">
                 <div class="swiper-wrapper">
-                <!--==================== PORTFOLIO 1====================-->
+                    <!--==================== PORTFOLIO 1====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="https://harver.com/wp-content/uploads/2020/08/chat@2x.png" class="portfolio_img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Command Line Chat Application using Python</h3>
+                            <p class="portfolio__decription">A chat application made purly from Python sockets. It has many
+                                advanced features including file sharing.
+                                It has been one of the best projects of mine.
+                            </p>
+                            <a href="https://github.com/codes-and-games/Tchat-main"
+                                class="button button--flex button--small portfolio___button">
+                                GitHub Link
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+
+                    <!--==================== PORTFOLIO 2====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio2.jpg" class="portfolio_img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern Website on Incredible India</h3>
+                            <p class="portfolio__decription">Website made for a contest on topic on Incredible India
+                                India.
+                                This website is firmly made for Desktop/Laptop.</p>
+                            <a href="https://my-incredible-india.netlify.app/"
+                                class="button button--flex button--small portfolio___button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 3====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio3.jpg" class="portfolio_img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Python Application on Incredible India</h3>
+                            <p class="portfolio__decription">Website made for a contest on topic on Incredible India
+                                India.
+                                This application is firmly made for Desktop/Laptop.</p>
+                            <a href="https://my-incredible-india.netlify.app/focus-2/download.html"
+                                class="button button--flex button--small portfolio___button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                <!--==================== PORTFOLIO 4====================-->
                 <div class="portfolio__content grid swiper-slide">
                     <img src="assets/img/portfolio1.jpg" class="portfolio_img">
                     <div class="portfolio__data">
                         <h3 class="portfolio__title">Modern Website on COVID-19 India</h3>
-                        <p class="portfolio__decription">Website made for a contest on topic on COVID-19 India. 
+                        <p class="portfolio__decription">Website made for a contest on topic on COVID-19 India.
                             This website is firmly made for Desktop/Laptop.</p>
                         <a href="https://codes-and-games.github.io/covid-website/index.html"
-                         class="button button--flex button--small portfolio___button">
-                        Demo
-                        <i class="uil uil-arrow-right button__icon"></i>
-                        </a>    
+                            class="button button--flex button--small portfolio___button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
                     </div>
                 </div>
+            </div>
 
-                <!--==================== PORTFOLIO 2====================-->
-                <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/img/portfolio2.jpg" class="portfolio_img">
-                    <div class="portfolio__data">
-                        <h3 class="portfolio__title">Modern Website on Incredible India</h3>
-                        <p class="portfolio__decription">Website made for a contest on topic on Incredible India India. 
-                            This website is firmly made for Desktop/Laptop.</p>
-                        <a href="https://my-incredible-india.netlify.app/"
-                         class="button button--flex button--small portfolio___button">
-                        Demo
-                        <i class="uil uil-arrow-right button__icon"></i>
-                        </a>    
-                    </div>
-                </div>
 
-                 <!--==================== PORTFOLIO 3====================-->
-                 <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/img/portfolio3.jpg" class="portfolio_img">
-                    <div class="portfolio__data">
-                        <h3 class="portfolio__title">Python Application on Incredible India</h3>
-                        <p class="portfolio__decription">Website made for a contest on topic on Incredible India India. 
-                            This application is firmly made for Desktop/Laptop.</p>
-                        <a href="https://my-incredible-india.netlify.app/focus-2/download.html"
-                         class="button button--flex button--small portfolio___button">
-                        Demo
-                        <i class="uil uil-arrow-right button__icon"></i>
-                        </a>    
-                    </div>
-                </div>
-                </div>
 
-                <div class="swiper-button-next">
-                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i> </div>
-                <div class="swiper-button-prev">
-                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i> </div>
-                <div class="swiper-pagination"></div>
+            <div class="swiper-button-next">
+                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-button-prev">
+                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-pagination"></div>
             </div>
         </section>
 
@@ -409,7 +513,7 @@
                 <div>
                     <div class="contact__information">
                         <i class="uil uil-phone contact__icon"></i>
-                    
+
 
                         <div>
                             <h3 class="contact__title">Call Me!</h3>
@@ -419,7 +523,7 @@
 
                     <div class="contact__information">
                         <i class="uil uil-envelope contact__icon"></i>
-                    
+
 
                         <div>
                             <h3 class="contact__title">Email</h3>
@@ -429,7 +533,7 @@
 
                     <div class="contact__information">
                         <i class="uil uil-map-marker contact__icon"></i>
-                    
+
 
                         <div>
                             <h3 class="contact__title">Location</h3>
@@ -446,16 +550,18 @@
         <div class="footer__bg">
             <div class="footer__container container grid">
 
-            <p class="footer_copy">&#169; Divyesh Idhate. All rights reserved </p>
-        </div>
+                <p class="footer_copy">&#169; Divyesh Idhate. All rights reserved </p>
+            </div>
 
     </footer>
+    <br><br>
 
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
